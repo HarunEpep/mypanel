@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     telegramBtn.addEventListener('click', function() {
         const server = document.querySelector('input[name="server"]:checked').value;
         const message = `.buy${currentPackage}-${server}`;
-        const telegramUrl = `https://t.me/@runzyassist_bot`;
+        const telegramUrl = `https://t.me/runzyassist_bot`;
         window.open(telegramUrl, '_blank');
         modal.classList.remove('show');
     });
